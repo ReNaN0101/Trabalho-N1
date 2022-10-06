@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#8028292C">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prof"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Analise e Desenvolvimento de Sistemas"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:fontFamily="@font/Freshman"/>
+
+    <TextView
+        android:id="@+id/alunos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Alunos: Renan de Andrade Terra\n
+             20212012000065\n
+       Tércio Tales Barnabé da Silva\n              20212012000251
+       "
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/prof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alunos"
+        android:layout_alignLeft="@+id/alunos"
+        android:text="Professor: Fernando Gonçalves Abadia"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="209dp"
+        android:layout_height="227dp"
+        android:layout_below="@id/prof"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="122dp"
+        android:src="@drawable/imagemPuc" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/white"
+        android:text="Proximo"
+        android:textColor="@color/black"/>
+</RelativeLayout>

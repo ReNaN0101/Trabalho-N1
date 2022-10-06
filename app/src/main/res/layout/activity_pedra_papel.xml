@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#8028292C">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Pedra, Papel e Tesoura"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:fontFamily="@font/Freshman"/>
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/Freshman"
+        android:text="Escolha da CPU :"
+        android:textSize="20dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/escolhaCpu"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/txt01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/escolhaCpu"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/Freshman"
+        android:text="Escolha a sua jogada:"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/papel"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/txt02"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="23dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/papel"
+        android:background="null"/>
+
+    <ImageButton
+        android:id="@+id/pedra"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/txt02"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="-109dp"
+        android:layout_toRightOf="@id/papel"
+        android:adjustViewBounds="true"
+        android:background="null"
+        android:scaleType="centerInside"
+        android:src="@drawable/pedra" />
+
+    <ImageButton
+        android:id="@+id/tesoura"
+        android:layout_width="86dp"
+        android:layout_height="89dp"
+        android:layout_below="@id/txt02"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="-109dp"
+        android:layout_toRightOf="@id/pedra"
+        android:adjustViewBounds="true"
+        android:background="null"
+        android:scaleType="centerInside"
+        android:src="@drawable/tesoura" />
+
+
+</RelativeLayout>
