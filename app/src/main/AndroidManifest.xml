@@ -14,13 +14,13 @@
         android:theme="@style/Theme.TrabalhoAvaliativo"
         tools:targetApi="31">
         <activity
+            android:name=".pedraPapel"
+            android:exported="false" />
+        <activity
             android:name=".codigoSecreto"
             android:exported="false" />
         <activity
             android:name=".randomizador"
-            android:exported="false" />
-        <activity
-            android:name=".pedraPapel"
             android:exported="false" />
         <activity
             android:name=".palavraInvertida"

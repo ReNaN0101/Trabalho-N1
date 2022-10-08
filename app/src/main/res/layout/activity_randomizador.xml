@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#8028292C"
     >
 
@@ -14,12 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:fontFamily="@font/Freshman"
+        android:fontFamily="@font/freshman"
         android:text="Randomizador de Palavra ou Valores"
         android:textAlignment="center"
+
         android:textColor="@color/black"
-        android:textSize="20dp"
-        />
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/ed01"
