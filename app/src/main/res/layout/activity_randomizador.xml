@@ -27,9 +27,9 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
         android:layout_toRightOf="@id/ed01"
-        android:text="Inserir"
         android:backgroundTint="@color/white"
-        android:textColor="@color/black"/>
+        android:text="Inserir"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/ed01"
@@ -39,14 +39,14 @@
         android:layout_alignLeft="@+id/lista"
         android:layout_marginTop="30dp"
         android:hint="Digite..." />
+
     <ListView
         android:id="@+id/lista"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_below="@id/ed01"
-        android:layout_marginTop="20dp"
         android:layout_marginHorizontal="30dp"
-        />
+        android:layout_marginTop="20dp" />
 
     <Button
         android:id="@+id/btn02"
