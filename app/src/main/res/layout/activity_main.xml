@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#8028292C">
+    android:background="#8028292C"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/titulo"
@@ -23,12 +23,11 @@
         android:id="@+id/alunos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:text="Alunos: Renan de Andrade Terra\n
-             20212012000065\n
-       Tércio Tales Barnabé da Silva\n              20212012000251
-       "
+        android:text="Alunos: Renan de Andrade Terra\n20212012000065\nTércio Tales Barnabé da Silva\n20212012000251"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="15dp" />
 
