@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Trabalho Avaliativo</string>
+
+    <string name="certo">🟩</string>
+    <string name="posicao_errada">🟨</string>
+    <string name="errado">🟥</string>
+    <string name="vazio">⬜</string>
 </resources>
